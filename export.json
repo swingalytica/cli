@@ -1,0 +1,742 @@
+[
+  {
+    "_id": { "$oid": "69de16d7eaae1d2ee05a9593" },
+    "id": "c06b0db9-b130-4481-abe2-11c2888c9894",
+    "game_mode": "4winning",
+    "winner": {
+      "pos": 1,
+      "name": "Red",
+      "player_id": "red",
+      "color": "red",
+      "data": ["10-15", "43-48", "77-81", "110-115"]
+    },
+    "players": [
+      {
+        "pos": 1,
+        "name": "Red",
+        "player_id": "red",
+        "color": "red",
+        "data": ["10-15", "43-48", "77-81", "110-115"],
+        "_id": { "$oid": "69de16d7eaae1d2ee05a9594" }
+      },
+      {
+        "pos": 2,
+        "name": "Blue",
+        "player_id": "blue",
+        "color": "blue",
+        "data": ["15-20", "48-53", "81-86"],
+        "_id": { "$oid": "69de16d7eaae1d2ee05a9595" }
+      }
+    ],
+    "game_board": [
+      [
+        {
+          "text": "1 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a9596" }
+        },
+        {
+          "text": "10-15",
+          "color": "red",
+          "player_id": "red",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a9597" }
+        },
+        {
+          "text": "15-20",
+          "color": "blue",
+          "player_id": "blue",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a9598" }
+        },
+        { "text": "20-24", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a9599" } },
+        { "text": "24-29", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a959a" } },
+        { "text": "29-34", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a959b" } },
+        { "text": "34-39", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a959c" } },
+        { "text": "39-43", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a959d" } },
+        {
+          "text": "1 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a959e" }
+        }
+      ],
+      [
+        {
+          "text": "1 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a959f" }
+        },
+        {
+          "text": "43-48",
+          "color": "red",
+          "player_id": "red",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95a0" }
+        },
+        {
+          "text": "48-53",
+          "color": "blue",
+          "player_id": "blue",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95a1" }
+        },
+        { "text": "53-58", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a95a2" } },
+        { "text": "58-62", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a95a3" } },
+        { "text": "62-67", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a95a4" } },
+        { "text": "67-72", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a95a5" } },
+        { "text": "72-77", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a95a6" } },
+        {
+          "text": "1 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95a7" }
+        }
+      ],
+      [
+        {
+          "text": "2 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95a8" }
+        },
+        {
+          "text": "77-81",
+          "color": "red",
+          "player_id": "red",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95a9" }
+        },
+        {
+          "text": "81-86",
+          "color": "blue",
+          "player_id": "blue",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95aa" }
+        },
+        { "text": "86-91", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a95ab" } },
+        { "text": "91-96", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a95ac" } },
+        { "text": "96-100", "color": "transparent", "_id": { "$oid": "69de16d7eaae1d2ee05a95ad" } },
+        {
+          "text": "100-105",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95ae" }
+        },
+        {
+          "text": "105-110",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95af" }
+        },
+        {
+          "text": "2 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b0" }
+        }
+      ],
+      [
+        {
+          "text": "2 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b1" }
+        },
+        {
+          "text": "110-115",
+          "color": "red",
+          "player_id": "red",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b2" }
+        },
+        {
+          "text": "115-119",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b3" }
+        },
+        {
+          "text": "119-124",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b4" }
+        },
+        {
+          "text": "124-129",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b5" }
+        },
+        {
+          "text": "129-134",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b6" }
+        },
+        {
+          "text": "134-138",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b7" }
+        },
+        {
+          "text": "138-143",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b8" }
+        },
+        {
+          "text": "2 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95b9" }
+        }
+      ],
+      [
+        {
+          "text": "3 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95ba" }
+        },
+        {
+          "text": "143-148",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95bb" }
+        },
+        {
+          "text": "148-153",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95bc" }
+        },
+        {
+          "text": "153-157",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95bd" }
+        },
+        {
+          "text": "157-162",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95be" }
+        },
+        {
+          "text": "162-167",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95bf" }
+        },
+        {
+          "text": "167-172",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c0" }
+        },
+        {
+          "text": "172-176",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c1" }
+        },
+        {
+          "text": "3 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c2" }
+        }
+      ],
+      [
+        {
+          "text": "3 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c3" }
+        },
+        {
+          "text": "176-181",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c4" }
+        },
+        {
+          "text": "181-186",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c5" }
+        },
+        {
+          "text": "186-191",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c6" }
+        },
+        {
+          "text": "191-195",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c7" }
+        },
+        {
+          "text": "195-200",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c8" }
+        },
+        {
+          "text": "200-205",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95c9" }
+        },
+        {
+          "text": "205-210",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95ca" }
+        },
+        {
+          "text": "3 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95cb" }
+        }
+      ],
+      [
+        {
+          "text": "4 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95cc" }
+        },
+        {
+          "text": "210-214",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95cd" }
+        },
+        {
+          "text": "214-219",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95ce" }
+        },
+        {
+          "text": "219-224",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95cf" }
+        },
+        {
+          "text": "224-229",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d0" }
+        },
+        {
+          "text": "229-233",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d1" }
+        },
+        {
+          "text": "233-238",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d2" }
+        },
+        {
+          "text": "238-243",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d3" }
+        },
+        {
+          "text": "4 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d4" }
+        }
+      ],
+      [
+        {
+          "text": "4 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d5" }
+        },
+        {
+          "text": "243-248",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d6" }
+        },
+        {
+          "text": "248-252",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d7" }
+        },
+        {
+          "text": "252-257",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d8" }
+        },
+        {
+          "text": "257-262",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95d9" }
+        },
+        {
+          "text": "262-267",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95da" }
+        },
+        {
+          "text": "267-271",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95db" }
+        },
+        {
+          "text": "271-276",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95dc" }
+        },
+        {
+          "text": "4 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de16d7eaae1d2ee05a95dd" }
+        }
+      ]
+    ],
+    "url": "https://realgolf.games/view/4winning/c06b0db9-b130-4481-abe2-11c2888c9894",
+    "user_id": "anonymous",
+    "created_at": { "$date": "2026-04-14T10:28:39.85Z" },
+    "updated_at": { "$date": "2026-04-14T10:28:39.85Z" },
+    "is_public": true,
+    "metadata": { "moves_count": 7, "duration": 9, "visits": 1, "total_shots": 0, "shots_left": 0 },
+    "__v": 0
+  },
+  {
+    "_id": { "$oid": "69de171beaae1d2ee05a95de" },
+    "id": "a255d4e9-bf4b-4018-bbc6-578b81068b6d",
+    "game_mode": "4winning",
+    "winner": {
+      "pos": 1,
+      "name": "Red",
+      "player_id": "red",
+      "color": "red",
+      "data": ["10-15", "43-48", "77-81", "110-115"]
+    },
+    "players": [
+      {
+        "pos": 1,
+        "name": "Red",
+        "player_id": "red",
+        "color": "red",
+        "data": ["10-15", "43-48", "77-81", "110-115"],
+        "_id": { "$oid": "69de171beaae1d2ee05a95df" }
+      },
+      {
+        "pos": 2,
+        "name": "Blue",
+        "player_id": "blue",
+        "color": "blue",
+        "data": ["15-20", "48-53", "81-86"],
+        "_id": { "$oid": "69de171beaae1d2ee05a95e0" }
+      }
+    ],
+    "game_board": [
+      [
+        {
+          "text": "1 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95e1" }
+        },
+        {
+          "text": "10-15",
+          "color": "red",
+          "player_id": "red",
+          "_id": { "$oid": "69de171beaae1d2ee05a95e2" }
+        },
+        {
+          "text": "15-20",
+          "color": "blue",
+          "player_id": "blue",
+          "_id": { "$oid": "69de171beaae1d2ee05a95e3" }
+        },
+        { "text": "20-24", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95e4" } },
+        { "text": "24-29", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95e5" } },
+        { "text": "29-34", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95e6" } },
+        { "text": "34-39", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95e7" } },
+        { "text": "39-43", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95e8" } },
+        {
+          "text": "1 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95e9" }
+        }
+      ],
+      [
+        {
+          "text": "1 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95ea" }
+        },
+        {
+          "text": "43-48",
+          "color": "red",
+          "player_id": "red",
+          "_id": { "$oid": "69de171beaae1d2ee05a95eb" }
+        },
+        {
+          "text": "48-53",
+          "color": "blue",
+          "player_id": "blue",
+          "_id": { "$oid": "69de171beaae1d2ee05a95ec" }
+        },
+        { "text": "53-58", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95ed" } },
+        { "text": "58-62", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95ee" } },
+        { "text": "62-67", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95ef" } },
+        { "text": "67-72", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95f0" } },
+        { "text": "72-77", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95f1" } },
+        {
+          "text": "1 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95f2" }
+        }
+      ],
+      [
+        {
+          "text": "2 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95f3" }
+        },
+        {
+          "text": "77-81",
+          "color": "red",
+          "player_id": "red",
+          "_id": { "$oid": "69de171beaae1d2ee05a95f4" }
+        },
+        {
+          "text": "81-86",
+          "color": "blue",
+          "player_id": "blue",
+          "_id": { "$oid": "69de171beaae1d2ee05a95f5" }
+        },
+        { "text": "86-91", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95f6" } },
+        { "text": "91-96", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95f7" } },
+        { "text": "96-100", "color": "transparent", "_id": { "$oid": "69de171beaae1d2ee05a95f8" } },
+        {
+          "text": "100-105",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95f9" }
+        },
+        {
+          "text": "105-110",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95fa" }
+        },
+        {
+          "text": "2 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95fb" }
+        }
+      ],
+      [
+        {
+          "text": "2 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95fc" }
+        },
+        {
+          "text": "110-115",
+          "color": "red",
+          "player_id": "red",
+          "_id": { "$oid": "69de171beaae1d2ee05a95fd" }
+        },
+        {
+          "text": "115-119",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95fe" }
+        },
+        {
+          "text": "119-124",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a95ff" }
+        },
+        {
+          "text": "124-129",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9600" }
+        },
+        {
+          "text": "129-134",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9601" }
+        },
+        {
+          "text": "134-138",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9602" }
+        },
+        {
+          "text": "138-143",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9603" }
+        },
+        {
+          "text": "2 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9604" }
+        }
+      ],
+      [
+        {
+          "text": "3 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9605" }
+        },
+        {
+          "text": "143-148",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9606" }
+        },
+        {
+          "text": "148-153",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9607" }
+        },
+        {
+          "text": "153-157",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9608" }
+        },
+        {
+          "text": "157-162",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9609" }
+        },
+        {
+          "text": "162-167",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a960a" }
+        },
+        {
+          "text": "167-172",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a960b" }
+        },
+        {
+          "text": "172-176",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a960c" }
+        },
+        {
+          "text": "3 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a960d" }
+        }
+      ],
+      [
+        {
+          "text": "3 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a960e" }
+        },
+        {
+          "text": "176-181",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a960f" }
+        },
+        {
+          "text": "181-186",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9610" }
+        },
+        {
+          "text": "186-191",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9611" }
+        },
+        {
+          "text": "191-195",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9612" }
+        },
+        {
+          "text": "195-200",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9613" }
+        },
+        {
+          "text": "200-205",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9614" }
+        },
+        {
+          "text": "205-210",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9615" }
+        },
+        {
+          "text": "3 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9616" }
+        }
+      ],
+      [
+        {
+          "text": "4 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9617" }
+        },
+        {
+          "text": "210-214",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9618" }
+        },
+        {
+          "text": "214-219",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9619" }
+        },
+        {
+          "text": "219-224",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a961a" }
+        },
+        {
+          "text": "224-229",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a961b" }
+        },
+        {
+          "text": "229-233",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a961c" }
+        },
+        {
+          "text": "233-238",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a961d" }
+        },
+        {
+          "text": "238-243",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a961e" }
+        },
+        {
+          "text": "4 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a961f" }
+        }
+      ],
+      [
+        {
+          "text": "4 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9620" }
+        },
+        {
+          "text": "243-248",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9621" }
+        },
+        {
+          "text": "248-252",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9622" }
+        },
+        {
+          "text": "252-257",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9623" }
+        },
+        {
+          "text": "257-262",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9624" }
+        },
+        {
+          "text": "262-267",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9625" }
+        },
+        {
+          "text": "267-271",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9626" }
+        },
+        {
+          "text": "271-276",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9627" }
+        },
+        {
+          "text": "4 Meters",
+          "color": "transparent",
+          "_id": { "$oid": "69de171beaae1d2ee05a9628" }
+        }
+      ]
+    ],
+    "url": "https://realgolf.games/view/4winning/a255d4e9-bf4b-4018-bbc6-578b81068b6d",
+    "user_id": "c245388e-fdc3-408e-979c-c70c7a4081ef",
+    "created_at": { "$date": "2026-04-14T10:29:47.794Z" },
+    "updated_at": { "$date": "2026-04-14T10:29:47.794Z" },
+    "is_public": true,
+    "metadata": { "moves_count": 7, "duration": 2, "visits": 1, "total_shots": 0, "shots_left": 0 },
+    "__v": 0
+  }
+]

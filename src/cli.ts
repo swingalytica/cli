@@ -33,7 +33,13 @@ async function main() {
   if (action === "serialize") {
     const data = JSON.parse(raw);
     const ggn = serializeGGN(data);
-    await writeFile(output, ggn);
+    // Ensure we pass an acceptable type to writeFile.
+    if (typeof ggn === "string" || ggn instanceof Uint8Array || Buffer.isBuffer(ggn)) {
+      await writeFile(output, ggn as string | Uint8Array);
+    } else {
+      // Fallback: serialize to string
+      await writeFile(output, JSON.stringify(ggn));
+    }
     return;
   }
 
